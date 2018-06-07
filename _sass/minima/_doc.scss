@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+}
+
+nav.navbar {
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  background-color: $content-color;
+
+  ul {
+    margin-left: 0;
+    list-style-type: none;
+    
+    li {
+    }
+  }
+}
+
+.docs {
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 600px;
+  min-height: 50vh;
+  background-color: $content-color;
+}
+
+aside.sidebar {
+  position: relative;
+  width: 160px;
+  margin: 5px;
+  padding: 5px;
+  background-color: $content-color;
+  
+  .adarea {
+    position: sticky;
+    top: 30px;
+    
+    .ads {
+      width: 160px;
+      height: 600px;
+      margin: 0;
+      background-color: chocolate;
+    }
+  }
+}
