@@ -1,0 +1,15 @@
+{% if page.path contains '_docs' or page.path contains 'posts' %}
+<nav class="column is-narrow is-hidden-mobile bukyll-nav box">
+  <div class="menu">
+    <ul class="menu-list" style="width: 300px;">
+      {% assign current_page = page.course %}
+      {% for page in site.docs %}
+        {% if page.course == current_page %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="ad-area" style="width: 300px;">&nbsp;</div>
+</nav>
+{% endif %}

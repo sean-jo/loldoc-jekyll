@@ -1,0 +1,15 @@
+<div>
+  <ul>
+  {% if page.previous.course == page.course %}
+    <li><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></li>
+  {% else %}
+    <li>first</li>
+  {% endif %}
+
+  {% if page.next.course == page.course %}
+    <li><a href="{{ page.next.url }}">{{ page.next.title }}</a></li>
+  {% else %}
+    <li>last</li>
+  {% endif %}
+  </ul>
+</div>

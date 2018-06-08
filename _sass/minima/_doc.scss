@@ -11,7 +11,7 @@
 }
 
 nav.navbar {
-  width: 200px;
+  width: 300px;
   margin: 5px;
   padding: 5px;
   background-color: $content-color;
@@ -19,9 +19,16 @@ nav.navbar {
   ul {
     margin-left: 0;
     list-style-type: none;
-    
+    scroll-behavior: smooth;
     li {
+      padding-left: 10px;
     }
+  }
+
+  .ad-area {
+    width: 300px;
+    height: 250px;
+    background-color: coral;
   }
 
   @include media-query($on-palm) {

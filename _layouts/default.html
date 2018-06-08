@@ -4,15 +4,26 @@
   {%- include head.html -%}
 
   <body>
-
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      {{ content }}
+    <main class="section has-background-grey-lighter" aria-label="Content">
+
+      <div class="container is-fluid">
+        <section class="columns">
+          {%- include sidenav.html -%}
+    
+          <div class="column box">
+            {{ content }}
+          </div>
+
+          {%- include aside.html -%}
+        </section>
+      </div>
+
     </main>
 
     {%- include footer.html -%}
-
+    {%- include scripts.html -%}
   </body>
 
 </html>
