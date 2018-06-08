@@ -1,5 +1,5 @@
 {% if page.path contains '_docs' or page.path contains 'posts' %}
-<nav class="column is-narrow is-hidden-mobile bukyll-nav box">
+<nav class="column is-narrow is-hidden-mobile cl-nav">
   <div class="menu">
     <ul class="menu-list" style="width: 300px;">
       {% assign current_page = page.course %}
@@ -10,6 +10,7 @@
       {% endfor %}
     </ul>
   </div>
+  <hr>
   <div class="ad-area" style="width: 300px;">&nbsp;</div>
 </nav>
 {% endif %}
