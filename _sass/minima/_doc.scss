@@ -4,6 +4,10 @@
   align-items: stretch;
   justify-content: center;
   position: relative;
+
+  > * {
+    box-shadow: 1px 1px 2px $grey-color-dark;
+  }
 }
 
 nav.navbar {
@@ -19,14 +23,27 @@ nav.navbar {
     li {
     }
   }
+
+  @include media-query($on-palm) {
+    display: none;
+  }
+
+  @include media-query($on-laptop) {
+    font-size: 0.8rem;
+  }
 }
 
 .docs {
   margin: 5px;
   padding: 10px 20px;
-  min-width: 600px;
+  min-width: 400px;
   min-height: 50vh;
   background-color: $content-color;
+
+  @include media-query($on-palm) {
+    margin: 0;
+    min-width: 300px;
+  }
 }
 
 aside.sidebar {
@@ -47,4 +64,24 @@ aside.sidebar {
       background-color: chocolate;
     }
   }
+
+  @include media-query($on-palm) {
+    display: none;
+  }
+
+  @include media-query($on-laptop) {
+    display: none;
+  }
+}
+
+.site-header {
+  background-color: $grey-color-dark;
+}
+
+.site-footer {
+  background-color: $grey-color-light;
+}
+
+.text-center {
+  text-align: center;
 }

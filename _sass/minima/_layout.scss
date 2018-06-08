@@ -20,7 +20,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $grey-color-light;
   }
 }
 
@@ -37,7 +37,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $grey-color-light;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -50,7 +50,7 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
+    background-color: $grey-color-dark;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -60,7 +60,7 @@
       float: right;
       width: 36px;
       height: 36px;
-      z-index: 2;
+      z-index: 10;
       cursor: pointer;
     }
 
@@ -74,7 +74,7 @@
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $grey-color-light;
       }
     }
 
@@ -176,7 +176,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: 20px 0;
   flex: 1;
 }
 
