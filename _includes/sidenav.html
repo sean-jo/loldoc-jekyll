@@ -1,16 +1,19 @@
-{% if page.path contains '_docs' or page.path contains 'posts' %}
+{% if page.path contains '_docs' or page.path contains '_posts' %}
 <nav class="column is-narrow is-hidden-mobile cl-nav">
-  <div class="menu">
-    <ul class="menu-list" style="width: 300px;">
+  <div class="menu" style="width: 240px;">
+    <ul class="menu-list">
       {% assign current_page = page.course %}
-      {% for page in site.docs %}
-        {% if page.course == current_page %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% for doc in site.docs %}
+        {% if doc.course == current_page %}
+          <li>
+            <a class="{% if page.url == doc.url %}is-active{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a>
+          </li>
         {% endif %}
       {% endfor %}
     </ul>
   </div>
   <hr>
-  <div class="ad-area" style="width: 300px;">&nbsp;</div>
+
+  <div class="ad-area" style="width: 240px;">&nbsp;</div>
 </nav>
 {% endif %}
