@@ -13,32 +13,6 @@ table {
   }
 }
 
-.cl-nav {
-  background-color: $white;
-  margin-right: 12px;
-
-  .ad-area {
-    width: 240px;
-    height: 240px;
-    background-color: antiquewhite;
-  }
-}
-
-.cl-content {
-  background-color: $white;
-}
-
-.cl-aside {
-  background-color: $white;
-  margin-left: 12px;
-
-  .ad-area {
-    width: 160px;
-    height: 600px;
-    background-color: antiquewhite;
-  }
-}
-
 // Icons
 .svg-icon {
   width: 16px;
@@ -57,6 +31,39 @@ table {
     padding-top: 5px;
   }
 }
+
+
+// sidenav
+.cl-nav {
+  background-color: $white;
+  margin-right: 12px;
+
+  .menu {
+    width: 240px;
+  }
+  .ad-area {
+    width: 240px;
+    height: 240px;
+    background-color: antiquewhite;
+  }
+}
+
+// aside
+.cl-aside {
+  background-color: $white;
+  margin-left: 12px;
+
+  .ad-area {
+    width: 160px;
+    height: 600px;
+    background-color: antiquewhite;
+  }
+
+  .aside-section {
+    width: 160px;
+  }
+}
+
 
 @import "bukyll/layout";
 @import "bukyll/syntax_monokai";
