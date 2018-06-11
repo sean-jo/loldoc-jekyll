@@ -13,6 +13,11 @@ table {
   }
 }
 
+.content table td, .content table th {
+  border-width: 1px;
+  border: 1px solid $grey-lighter;
+}
+
 // Icons
 .svg-icon {
   width: 16px;
@@ -65,5 +70,5 @@ table {
 }
 
 
-@import "bukyll/layout";
-@import "bukyll/syntax_monokai";
+@import "codelol/layout";
+@import "codelol/syntax_monokai";
