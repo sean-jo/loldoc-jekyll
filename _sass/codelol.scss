@@ -1,23 +1,5 @@
 @charset "utf-8";
 
-// Images
-img {
-  max-width: 100%;
-  display: block;
-  margin: 0.75rem auto;
-}
-
-table {
-  th {
-    background-color: $white-ter;
-  }
-}
-
-.content table td, .content table th {
-  border-width: 1px;
-  border: 1px solid $grey-lighter;
-}
-
 // Icons
 .svg-icon {
   width: 16px;
@@ -38,10 +20,32 @@ table {
 }
 
 
+// Content
+.content img {
+  max-width: 100%;
+  display: block;
+  margin: 0.8rem auto;
+}
+
+.content table {
+  thead tr th, tbody tr td {
+    border: 1px solid $grey-lighter;
+  }
+
+  tbody tr:last-child td {
+    border-bottom-width: 1px;
+  }
+
+  th {
+    background-color: $white-ter;
+  }
+}
+
+
 // sidenav
 .cl-nav {
   background-color: $white;
-  margin-right: 12px;
+  margin-right: 10px;
 
   .menu {
     width: 240px;
@@ -56,7 +60,7 @@ table {
 // aside
 .cl-aside {
   background-color: $white;
-  margin-left: 12px;
+  margin-left: 10px;
 
   .ad-area {
     width: 160px;

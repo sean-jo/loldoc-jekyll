@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "테스트 페이지!"
+date:   2018-06-11 08:00:00 +0900
+categories: ruby
+---
+
+테스트를 위한 페이지입니다.
