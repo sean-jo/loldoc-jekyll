@@ -2,6 +2,7 @@
 <nav class="column is-narrow is-hidden-mobile cl-nav">
   <div class="menu">
     <ul class="menu-list">
+      <!-- Docs -->
       {% assign current_page = page.course %}
       {% for doc in site.docs %}
         {% if doc.course == current_page %}
@@ -10,9 +11,21 @@
           </li>
         {% endif %}
       {% endfor %}
+
+      <!-- Posts -->
+      {%- if page.path contains '_posts' -%}
+        <li><a href="/{{ page.categories[0] }}">{{ page.categories[0] }}</a></li>
+      {%- endif -%}
     </ul>
   </div>
   <hr>
+
+  <ol>
+    <li>{{ page.categories | inspect }}</li>
+    <li>{{ page.path }}</li>
+    <li>{{ page.url }}</li>
+    <li>{{ page.title }}</li>
+  </ol>
 
   <div class="ad-area">&nbsp;</div>
 </nav>

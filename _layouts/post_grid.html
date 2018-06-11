@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="post-grid">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <!-- Grid Card -->
+  {%- if site.posts.size > 0 -%}
+    <div class="card-area">
+    {%- for post in site.posts -%}
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+      <div class="card">
+        <a href="{{ post.url | relative_url }}">
+          <div class="card-image">
+            <figure class="image is-16by9">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="placeholder image">
+            </figure>
+          </div>
+
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-size-4">{{ post.title | escape }}</p>
+              </div>
+            </div>
+            <div class="content">
+              {{ post.excerpt | strip_html | truncate: 50 }}
+              <br><br>
+              <time class="is-size-7">{{ post.date | date: date_format }}</time>
+            </div>
+          </div>
+        </a>
+      </div>
+    {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>

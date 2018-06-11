@@ -11,4 +11,20 @@
 
 /* page */
 
+/* post-grid */
+.post-grid {
+  .card-area {
+    .card {
+      margin: 10px 10px;
+      width: 320px;
+      height: 360px;
+      display: inline-block;
+    }
+  }
+}
+
 /* home */
+.page-heading {}
+.post-list-heading {}
+.post-list {}
+.post-link {}

@@ -48,7 +48,9 @@ img.addEventListener("click", function (event) {
 ```
 
 Ruby is `helloworld` programming language.
-:+1:, :a:, :accept:, :baby:, :car:, :kiss:, :kr:
+
+좋아요:+1:. 안녕 나는 :a: 야. 난 가능하지 :accept: :baby: :car: :kiss: :kr: 등등이야.
+
 
 | 제목1 | 제목2 |
 |:---:|-----|
