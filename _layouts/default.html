@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body class="has-navbar-fixed-top has-background-grey-lighter">
+  <body class="has-navbar-fixed-top {% if page.path contains '_pages' %} has-background-white{% else %} has-background-grey-lighter{% endif %}">
     {%- include header.html -%}
     
     <main class="section container is-fullhd" aria-label="Content">
@@ -13,8 +13,7 @@
         {%- include aside.html -%}
       </section>
     </main>
-    <!-- <main class="section " aria-label="Content">
-    </main> -->
+    {{ page.path }}
 
     {%- include footer.html -%}
     {%- include scripts.html -%}
