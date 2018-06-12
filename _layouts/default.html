@@ -3,24 +3,18 @@
 
   {%- include head.html -%}
 
-  <body class="has-navbar-fixed-top">
+  <body class="has-navbar-fixed-top has-background-grey-lighter">
     {%- include header.html -%}
-
-    <main class="section has-background-grey-lighter" aria-label="Content">
-
-      <div class="container is-fullhd">
-        <section class="columns">
-          {%- include sidenav.html -%}
     
-          <div class="column cl-content">
-            {{ content }}
-          </div>
-
-          {%- include aside.html -%}
-        </section>
-      </div>
-
+    <main class="section container is-fullhd" aria-label="Content">
+      <section class="columns">
+        {%- include sidenav.html -%}
+        {{ content }}
+        {%- include aside.html -%}
+      </section>
     </main>
+    <!-- <main class="section " aria-label="Content">
+    </main> -->
 
     {%- include footer.html -%}
     {%- include scripts.html -%}
