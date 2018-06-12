@@ -3,16 +3,16 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="has-navbar-fixed-top">
     {%- include header.html -%}
 
     <main class="section has-background-grey-lighter" aria-label="Content">
 
-      <div class="container is-fluid">
+      <div class="container is-fullhd">
         <section class="columns">
           {%- include sidenav.html -%}
     
-          <div class="column box bukyll-content">
+          <div class="column cl-content">
             {{ content }}
           </div>
 

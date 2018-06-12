@@ -1,15 +1,32 @@
-{% if page.path contains '_docs' or page.path contains 'posts' %}
-<nav class="column is-narrow is-hidden-mobile bukyll-nav box">
+{% if page.path contains '_docs' or page.path contains '_posts' %}
+<nav class="column is-narrow is-hidden-mobile cl-nav">
   <div class="menu">
-    <ul class="menu-list" style="width: 300px;">
+    <ul class="menu-list">
+      <!-- Docs -->
       {% assign current_page = page.course %}
-      {% for page in site.docs %}
-        {% if page.course == current_page %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% for doc in site.docs %}
+        {% if doc.course == current_page %}
+          <li>
+            <a class="{% if page.url == doc.url %}is-active{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a>
+          </li>
         {% endif %}
       {% endfor %}
+
+      <!-- Posts -->
+      {%- if page.path contains '_posts' -%}
+        <li><a href="/{{ page.categories[0] }}">{{ page.categories[0] }}</a></li>
+      {%- endif -%}
     </ul>
   </div>
-  <div class="ad-area" style="width: 300px;">&nbsp;</div>
+  <hr>
+
+  <ol>
+    <li>{{ page.categories | inspect }}</li>
+    <li>{{ page.path }}</li>
+    <li>{{ page.url }}</li>
+    <li>{{ page.title }}</li>
+  </ol>
+
+  <div class="ad-area">&nbsp;</div>
 </nav>
 {% endif %}
