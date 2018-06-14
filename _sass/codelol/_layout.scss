@@ -11,9 +11,31 @@
 
 /* page */
 
-/* post-grid */
-.post-grid {
-  .card {
+/* grid */
+.grid {
+  // Mobile
+  .card.is-hidden-tablet {
+    .card-content {
+      padding: 0.6rem;
+
+      .media {
+        align-items: center;
+      }
+    }
+  }
+  // Tablet & Laptop
+  .card.is-hidden-mobile {
+    max-width: 400px;
+    height: 310px;
+    overflow: hidden;
+    
+    .card-content {
+      padding: 0.6rem;
+    }
+  }
+
+  .card.ad-area {
+    text-align: center;
   }
 }
 

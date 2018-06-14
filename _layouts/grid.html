@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="column grid">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  
+  {{ content }}
+
+  {%- if page.path contains '_pages/posts' -%}
+    {%- assign items = site.posts -%}
+  {%- elsif page.path contains '_pages/courses' -%}
+    {%- assign items = site.data.docs -%}
+    <ul>
+      {%- assign all_categories = site.data.docs | map: "category" -%}
+      {%- assign categories = all_categories | uniq -%}
+      {%- for category in categories -%}
+        <li><a href="/courses/{{ category | downcase }}/">{{ category }}</a></li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  <!-- Grid Card -->
+  {%- include layout/grid.html -%}
+</div>
