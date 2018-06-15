@@ -55,7 +55,16 @@ img.emoji {
 
   .menu, .toc {
     width: 240px;
-    
+
+    li {
+      font-size: 0.8rem;
+    }
+  }
+
+  .toc .menu-list {
+    ul {
+      margin: 0.2em;
+    }
   }
   
   .ad-area {

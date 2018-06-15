@@ -7,7 +7,7 @@
       {% assign current_course = page.course %}
       {% for doc in site.docs %}
         {% if doc.course == current_course %}
-        <li class="is-size-7">
+        <li>
           <a class="{% if page.url == doc.url %}is-active{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a>
         </li>
         {% endif %}
@@ -18,8 +18,8 @@
   
   <!-- Posts -->
   {%- if page.path contains '_posts' -%}
-  <div class="toc">
-    {% include toc.html html=content class="menu-list" item_class="is-size-7" %}
+  <div class="menu toc">
+    {% include toc.html html=content class="menu-list" %}
   </div>
   {%- endif -%}
   <hr>
