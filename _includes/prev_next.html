@@ -1,13 +1,13 @@
 <hr>
 <nav class="pagination is-centered is-large" role="navigation" aria-label="pagination">
 {% if page.previous.course == page.course %}
-  <a href="{{ page.previous.url }}" class="pagination-previous">{{ page.previous.title }}</a>
+  <a href="{{ page.previous.url }}" class="pagination-previous">&lt; {{ page.previous.title }}</a>
 {% else %}
   <a href="" class="pagination-previous" title="첫 페이지" disabled>처음</a>
 {% endif %}
 
 {% if page.next.course == page.course %}
-  <a href="{{ page.next.url }}" class="pagination-next">{{ page.next.title }}</a>
+  <a href="{{ page.next.url }}" class="pagination-next">{{ page.next.title }} &gt;</a>
 {% else %}
   <a href="" class="pagination-next" title="마지막 페이지" disabled>마지막</a>
 {% endif %}
