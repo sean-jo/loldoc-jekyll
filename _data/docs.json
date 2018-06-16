@@ -3,21 +3,21 @@
     "title": "NodeJS 기초와 API 이용하기",
     "url": "/docs/nodejs-basic/",
     "date": "2018-06-01",
-    "image": "https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png",
+    "image": "/assets/image/nodejs.png",
     "category": "NodeJS"
   },
   {
     "title": "Express를 이용한 웹애플리케이션 개발",
     "url": "/docs/nodejs-basic/",
     "date": "2018-06-12",
-    "image": "https://cdn.pixabay.com/photo/2017/03/28/05/09/truck-2181037_1280.png",
+    "image": "/assets/image/express.png",
     "category": "NodeJS"
   },
   {
     "title": "Ruby on Rails를 이용해 Recipe 앱 만들기",
     "url": "/docs/rails-basic/",
     "date": "2018-06-10",
-    "image": "https://cdn.pixabay.com/photo/2017/01/31/13/26/diamond-2024022_1280.png",
+    "image": "/assets/image/ruby_on_rails.png",
     "category": "Ruby"
   }
 ]

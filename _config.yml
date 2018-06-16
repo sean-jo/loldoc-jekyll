@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Code lol
+title: Apptilus CODE
 email: 
-author: mhjo
+author: Mookheon
 description: >- # this means to ignore newlines until "baseurl:"
   More People, More Opportunities.
   It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 # the base hostname & protocol for your site, e.g. http://example.com
-url: "http://codelol.apptilus.com"
+url: "http://code.apptilus.com"
 timezone: Asia/Seoul
 date_format: "%F %R"
 lang: ko
@@ -75,7 +75,7 @@ header_pages:
   - _pages/posts.html
   - _pages/resourses.html
 
-permalink: /:categories/:title
+permalink: /dev/:categories/:title
 
 collections:
   docs:
