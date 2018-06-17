@@ -17,15 +17,27 @@ title: Apptilus CODE
 email: 
 author: Mookheon
 description: >- # this means to ignore newlines until "baseurl:"
-  More People, More Opportunities.
-  It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  More People, More Opportunities. 소프트웨어 개발과 관련된 튜토리얼, 포스팅, 리소스를 제공합니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 # the base hostname & protocol for your site, e.g. http://example.com
-url: "http://code.apptilus.com"
+url: "https://code.apptilus.com"
 timezone: Asia/Seoul
 date_format: "%F %R"
 lang: ko
+# google_analytics: UA-NNNNNNNN-N
+
+# SEO
+twitter:
+  username: mookheon
+  card: summary
+# facebook:
+#   app_id: 1234
+#   publisher: 1234
+#   admins: 1234
+  
+# google_site_verification: 
+
+# Social
 twitter_username: mookheon
 github_username:  mhjo
 rss: rss
@@ -89,3 +101,7 @@ defaults:
       type: "docs"
     values:
       layout: "doc"
+
+# disqus:
+#   shortname: my_disqus_shortname
+
