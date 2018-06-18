@@ -9,11 +9,13 @@ layout: default
 
   {{ content }}
 
-  <p>Courses</p>
+  <p class="is-size-5 is-size-6-mobile has-text-weight-bold">Courses</p>
+  <hr>
   {%- assign items = site.data.docs -%}
   {%- include layout/grid.html -%}
 
-  <p>Posts</p>
+  <p class="is-size-5 is-size-6-mobile has-text-weight-bold">Articles</p>
+  <hr>
   {%- assign items = site.posts -%}
   {%- include layout/grid.html -%}
 </div>

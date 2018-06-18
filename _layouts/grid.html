@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="column grid">
-  {%- if page.title -%}
+  <!-- {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {%- endif -%} -->
   
   {{ content }}
 
-  {%- if page.path contains '_pages/posts' -%}
+  {%- if page.path contains '_pages/articles' -%}
     {%- assign items = site.posts -%}
   {%- elsif page.path contains '_pages/courses' -%}
     {%- assign items = site.data.docs -%}

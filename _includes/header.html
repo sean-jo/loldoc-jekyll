@@ -26,13 +26,15 @@
 
       <div class="navbar-end">
         <div class="is-hidden-tablet">
-          <hr>
-          {% assign current_page = page.course %}
-          {% for page in site.docs %}
-            {% if page.course == current_page %}
-              <a class="navbar-item" href="{{ page.url }}">{{ page.title }}</a>
-            {% endif %}
-          {% endfor %}
+          {%- assign current_page = page.course -%}
+          {%- if site.docs.size > 0 -%}
+            <hr>
+            {%- for page in site.docs -%}
+              {%- if page.course == current_page -%}
+                <a class="navbar-item" href="{{ page.url }}">{{ page.title }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
         </div>
       </div>
     </div>

@@ -1,47 +1,65 @@
 <footer class="footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="columns">
+  <div class="container">
 
-    <div class="column is-2">
-      <h2>{{ site.title | escape }}</h2>
-      <a href="/about/">About us</a>
-    </div>
+    <div class="columns is-8">
+      <div class="column is-6">
+        <h2 class="is-size-4">{{ site.title | escape }}</h2>
+        <br>
+        <p>{{- site.description | escape -}}</p>
+      </div>
+      
+      <div class="column is-6">
+        <div class="columns is-mobile">
+          <div class="column is-one-third">
+            <p>{{ site.title }}</p>
+            <ul>
+              <li><a href="/courses/">Courses</a></li>
+              <li><a href="/articles/">Articles</a></li>
+              <!-- <li><a href="/resourse/">Resourses</a></li> -->
+            </ul>
+            <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS로 구독하기</a></p>
+          </div>
 
-    <div class="column">
-
-      <div class="columns">
-        <div class="column is-4">
-          <ul class="">
-            <li class="p-name">
-              {%- if site.author -%} 
-                {{ site.author | escape }} 
-              {%- else -%} 
-                {{ site.title | escape }} 
+          <div class="column is-one-third">
+            <p>About Us</p>
+            <p><a href="/about">About</a></p>
+            <!-- <p><a href="/contact">Contact</a></p> -->
+            <!-- <p><a href="/license">License</a></p> -->
+          </div>
+          
+          <div class="column is-one-third">
+            <ul>
+              <li class="p-name">
+                {%- if site.author -%} 
+                  {{ site.author | escape }} 
+                {%- endif -%}
+              </li>
+              {%- if site.email -%}
+                <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
               {%- endif -%}
-            </li>
-            {%- if site.email -%}
-              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-          </ul>
-        </div>
-
-        <div class="column is-2">
-          {%- include social.html -%}
-          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-        </div>
-
-        <div class="column is-6">
-          <p>{{- site.description | escape -}}</p>
+            </ul>
+            {%- include social.html -%}
+          </div>
         </div>
       </div>
 
     </div>
+    
+    <div class="columns">
+      <div class="column">
+이 웹사이트의 저작물은 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">크리에이티브 커먼즈 저작자표시-비영리 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+      </div>
+      <div class="column">
+        <p>2018 Apptilus &copy; All Rights Reserved. Made with 
+          <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, 
+          <a href="https://bulma.io/" target="_blank">Bulma</a>
+          and tons of :coffee:
+        </p>
+      </div>
+    </div>
 
   </div>
-
-  <div>
-    <p>All right reseved to apptilus 2018. made with jekyll and bulma</p>
-  </div>
-
 </footer>

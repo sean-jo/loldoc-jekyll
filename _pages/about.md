@@ -4,17 +4,14 @@ title: About Us
 permalink: /about/
 ---
 
-> More people, more opportunity.
+# More people, more opportunity.
+<br>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+소프트웨어 개발과 관련된 다양한, 
+> 튜토리얼 코스 - 프로그래밍 언어와 관련 기술에 대한 학습코스
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+> 기사 - 블로그 형식의 포스팅 기사
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+> 리소스 - 개발과 관련된 여러가지 유용한 정보 모음
 
-
-[jekyll-organization]: https://github.com/jekyll
+를 제공합니다.

@@ -17,7 +17,7 @@ title: Apptilus CODE
 email: 
 author: Mookheon
 description: >- # this means to ignore newlines until "baseurl:"
-  More People, More Opportunities. 소프트웨어 개발과 관련된 튜토리얼, 포스팅, 리소스를 제공합니다.
+  More People, More Opportunities. 프로그래밍 튜토리얼 및 리소스.
 baseurl: "" # the subpath of your site, e.g. /blog
 # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://code.apptilus.com"
@@ -84,10 +84,10 @@ include: ["_pages", ".htaccess", "_redirects"]
 
 header_pages:
   - _pages/courses.html
-  - _pages/posts.html
-  - _pages/resourses.html
+  - _pages/articles.html
+  # - _pages/resourses.html
 
-permalink: /dev/:categories/:title
+permalink: /articles/:categories/:title
 
 collections:
   docs:
