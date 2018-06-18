@@ -71,7 +71,7 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # include
-include: ["_pages", ".htaccess"]
+include: ["_pages", ".htaccess", "_redirects"]
 
 # exclude:
 #   - Gemfile
