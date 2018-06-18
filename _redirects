@@ -1,0 +1,9 @@
+# Redirect domain aliases to primary domain
+https://www.apptilus.com/* https://code.apptilus.com/:splat 301!
+
+# These extra rules are required because HTTPS is not forced
+http://www.apptilus.com/* https://code.apptilus.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://codeapptilus.netlify.com/* https://code.apptilus.com/:splat 301!
+http://codeapptilus.netlify.com/* https://code.apptilus.com/:splat 301!
