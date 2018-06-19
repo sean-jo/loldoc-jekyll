@@ -19,11 +19,12 @@ Node.js는 JavaScript 런타임 자체를 의미하기도 하고, Node.js만의 
 
 윈도우에서 Node.js설치는 어려울 것이 없어요. 다운로드 받고 설치하면 끝.
 
-우선, Node.js 웹사이트에 접속합시다. https://nodejs.org/ko/
+우선, Node.js 웹사이트에 접속합시다.
+<a href="https://nodejs.org/ko/" target="_blank">Node.js 홈페이지</a>
 
 그러면 바로 다운로드 버튼이 보일 텐데요. LTS 버전이라고 되어있는 다운로드 링크를 클릭하면 바로 다운로드가 시작되요.
 
-![nodejs-install1](img\nodejs-install1.png)
+![nodejs-install1](img/nodejs-install1.png)
 
 
 
@@ -31,7 +32,7 @@ Node.js는 JavaScript 런타임 자체를 의미하기도 하고, Node.js만의 
 
 다운로드 받았으면 더블클릭해서 설치를 시작합니다. 설치가 시작되면 다음 버튼만 눌러줘도 쉽게 설치가 완료되네요.
 
-![nodejs-install2](img\nodejs-install2.PNG)
+![nodejs-install2](img/nodejs-install2.PNG)
 
 
 
@@ -54,7 +55,7 @@ Node.js는 JavaScript 런타임 자체를 의미하기도 하고, Node.js만의 
 어쨋든, CLI 창을 열었으면 화면에 `node -v` 라고 입력해 봅시다.
 
 ```shell
-D:\>node -v
+D:/> node -v
 v8.9.4
 ```
 
