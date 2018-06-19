@@ -1,5 +1,5 @@
 ---
-title: "제목"
+title: "JavaScript의"
 course: "javascript-basic"
 ---
 
