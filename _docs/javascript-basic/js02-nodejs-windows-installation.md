@@ -20,7 +20,8 @@ Node.js는 JavaScript 런타임 자체를 의미하기도 하고, Node.js만의 
 윈도우에서 Node.js설치는 어려울 것이 없어요. 다운로드 받고 설치하면 끝.
 
 우선, Node.js 웹사이트에 접속합시다.
-<a href="https://nodejs.org/ko/" target="_blank">Node.js 홈페이지</a>
+
+> [Node.js 홈페이지][nodejs]{:target="_blank"}
 
 그러면 바로 다운로드 버튼이 보일 텐데요. LTS 버전이라고 되어있는 다운로드 링크를 클릭하면 바로 다운로드가 시작되요.
 
@@ -63,3 +64,4 @@ v8.9.4
 
 > 저는 예전에 설치해 놓아서 버전이 조금 오래되었네요. v8.11.3 이 표시되면 제대로 설치된거겠죠.
 
+[nodejs]: https://nodejs.org/ko/

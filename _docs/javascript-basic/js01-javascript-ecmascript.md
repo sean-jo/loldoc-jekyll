@@ -4,9 +4,6 @@ course: "javascript-basic"
 ---
 
 
-
-## 자바스크립트는 무엇인가요?
-
 JavaScript는 웹페이지의 여러 요소들을 제어하기 위한 언어로 Mozilla 재단의 Brendan Eich라는 분이 처음으로 만들었어요. 
 
 처음에는 웹 브라우저계의 조상님중 하나인 Netscape Navigator에 탑재되어 출시되었어요. 그러다나 차츰 인터넷 익스프롤러에도 비슷한게 탑재되고, 이런저런 역사가 있죠. 브라우저 전쟁이라 불리는 Microsoft와 Netscape사 간의 이야기가 있으니 관심있으면 한번 찾아보세요. 우리는 결과만 봐요. 

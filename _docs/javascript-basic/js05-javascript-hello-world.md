@@ -31,9 +31,9 @@ Node REPL 실행환경을 종료하기 위해서는 `Ctrl + C`를 두번 누르�
 
 ### 텍스트 에디터
 
-REPL은 간단하게 JavaScript를 실행해 볼 수 있지만 조금만 복잡한 프로그램을 만들어도 사용하기 쉽지가 않아요. 결국 코딩을 도와주는 에디터를 사용하게 되는데요. 윈도우의 메모장 같은 프로그램을 이용해서 작성할 수도 있지만 조금 더 편리하게 사용할 수 있는 텍스트 에디터를 사용하는 것이 좋아요.
+REPL은 간단하게 JavaScript를 실행해 볼 수 있지만 코드가 조금만 복잡해져도 사용하기 쉽지가 않아요. 결국 코딩을 도와주는 에디터를 사용하게 되는데요. 윈도우의 메모장 같은 프로그램을 이용해서 작성할 수도 있지만 조금 더 편리하게 사용할 수 있는 텍스트 에디터를 사용하는 것이 좋아요.
 
-최근에는 Atom(<a href="https://atom.io/" target="_blank">https://atom.io/</a>), Brackets(<a href="http://brackets.io/" target="_blank">http://brackets.io/</a>) 이나 Visual Studio Code([https://code.visualstudio.com/](https://code.visualstudio.com/){:target="_blank"}) 같은 도구를 많이 사용하고, 이미 익숙한 도구가 있다면 그걸 사용해도 되겠죠.
+최근에는 Atom([https://atom.io/][atom]{:target="_blank"}), Brackets([http://brackets.io/][brackets]{:target="_blank"}) 이나 Visual Studio Code([https://code.visualstudio.com/][vscode]{:target="_blank"}) 같은 도구를 많이 사용하고, 이미 익숙한 도구가 있다면 그걸 사용해도 되겠죠.
 
 Atom이나 VS Code의 기본적인 사용 방법은 설치해서 하나하나 사용해 보면 쉽게 익힐 수 있어요. 만약 사용하는 에디터가 없다면 VS Code를 한번 사용해 보세요.
 
@@ -73,3 +73,6 @@ node helloworld.js
 
 방금 우리는 자바스크립트 프로그램을 작성하고 실행까지 해봤어요. 드디어 본격적으로 자바스크립트 문법을 공부할 준비가 되었네요. 이제 시작해 봅시다.
 
+[atom]: https://atom.io/
+[brackets]: http://brackets.io/
+[vscode]: https://code.visualstudio.com/
