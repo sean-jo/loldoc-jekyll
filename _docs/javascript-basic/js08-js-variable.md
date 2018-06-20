@@ -1,7 +1,7 @@
 ---
 title: "JavaScript와 변수"
 course: "javascript-basic"
-date:   2018-06-20 18:20:00 +0900
+date:   2018-06-20 17:00:00 +0900
 ---
 
 

@@ -88,11 +88,12 @@ header_pages:
   - _pages/articles.html
   # - _pages/resourses.html
 
-permalink: /articles/:categories/:title
+permalink: /posts/:categories/:title
 
 collections:
   docs:
     output: true
+    feed: true
 
 defaults:
   # docs
@@ -102,7 +103,7 @@ defaults:
       type: "docs"
     values:
       layout: "doc"
-      feed: true
+      author: "Mook"
 
 # disqus:
 #   shortname: my_disqus_shortname

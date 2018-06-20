@@ -1,7 +1,7 @@
 ---
 title: "JavaScript 작성하고 실행하기"
 course: "javascript-basic"
-date:   2018-06-19 12:00:00 +0900
+date:   2018-06-19 17:00:00 +0900
 ---
 
 

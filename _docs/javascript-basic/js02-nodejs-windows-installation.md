@@ -1,7 +1,7 @@
 ---
 title: "Node.js 설치하기 - 윈도우"
 course: "javascript-basic"
-date:   2018-06-19 11:00:00 +0900
+date:   2018-06-19 14:00:00 +0900
 ---
 
 

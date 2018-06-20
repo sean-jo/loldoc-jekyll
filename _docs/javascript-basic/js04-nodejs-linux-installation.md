@@ -1,7 +1,7 @@
 ---
 title: "Node.js 설치하기 - Ubuntu LInux"
 course: "javascript-basic"
-date:   2018-06-20 18:10:00 +0900
+date:   2018-06-19 16:00:00 +0900
 ---
 
 
@@ -66,5 +66,5 @@ v8.9.4
 
 
 
-[nvm]: /posts/nodejs/nvm
+[nvm]: /posts/nodejs/nvm-for-node-version-manager
 

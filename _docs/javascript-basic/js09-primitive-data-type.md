@@ -1,7 +1,7 @@
 ---
 title: "JavaScript의 원시 자료형"
 course: "javascript-basic"
-date:   2018-06-20 18:30:00 +0900
+date:   2018-06-20 18:00:00 +0900
 ---
 
 
@@ -71,12 +71,6 @@ name.length; // 5
 // Boolean
 var male = true;
 var areYouOK = false;
-
-// undefined
-var user;
-
-// null
-var MyClass = null;
 ```
 
 
@@ -86,4 +80,12 @@ var MyClass = null;
 `undefined`는 값이 할당되지 않았다는 것을 표현해요. 변수 선언 시 변수를 선언만 하고 값을 할당하지 않으면 `undefined` 가 되는 거죠.
 
 `null`은 아무런 값도 아니다라는 것을 표현하기 위해 사용해요. 변수에 null을 할당하면 아무런 값도 없다는 것을 뜻해요.
+
+```javascript
+// undefined
+var user;
+
+// null
+var MyClass = null;
+```
 

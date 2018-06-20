@@ -1,16 +1,16 @@
 <header class="header" role="banner">
-
   <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
+
     <div class="navbar-brand">
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       <a class="navbar-item" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+      <div role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
-      </a>
+      </div>
     </div>
 
     {%- if page_paths -%}
@@ -26,19 +26,17 @@
 
       <div class="navbar-end">
         <div class="is-hidden-tablet">
-          {%- assign current_page = page.course -%}
-          {%- if site.docs.size > 0 -%}
-            <hr>
-            {%- for page in site.docs -%}
-              {%- if page.course == current_page -%}
-                <a class="navbar-item" href="{{ page.url }}">{{ page.title }}</a>
-              {%- endif -%}
-            {%- endfor -%}
-          {%- endif -%}
+          <hr>
+          {%- assign current_course = page.course -%}
+          {%- for page in site.docs -%}
+            {%- if page.course == current_course -%}
+              <a class="navbar-item" href="{{ page.url }}">{{ page.title }}</a>
+            {%- endif -%}
+          {%- endfor -%}
         </div>
       </div>
     </div>
     {%- endif -%}
+    
   </nav>
-
 </header>

@@ -1,7 +1,7 @@
 ---
-title: "웹개발을 위한 JavaScript 문법 시작하기"
+title: "웹개발을 위한 JavaScript 기본문법"
 course: "javascript-basic"
-date:   2018-06-19 09:00:00 +0900
+date:   2018-06-19 12:00:00 +0900
 ---
 
 

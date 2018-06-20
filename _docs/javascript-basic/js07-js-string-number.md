@@ -1,7 +1,7 @@
 ---
 title: "JavaScript 문자열과 숫자"
 course: "javascript-basic"
-date:   2018-06-20 18:20:00 +0900
+date:   2018-06-20 16:00:00 +0900
 ---
 
 
