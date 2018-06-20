@@ -1,6 +1,7 @@
 ---
 title: "JavaScript의 주석(Comment)"
 course: "javascript-basic"
+date:   2018-06-19 13:00:00 +0900
 ---
 
 
