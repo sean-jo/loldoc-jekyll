@@ -24,7 +24,7 @@ url: "https://code.apptilus.com"
 timezone: Asia/Seoul
 date_format: "%F %R"
 lang: ko
-# google_analytics: UA-NNNNNNNN-N
+google_analytics: UA-53661767-3
 
 # SEO
 twitter:
