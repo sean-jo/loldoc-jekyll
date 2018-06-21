@@ -39,8 +39,8 @@ twitter:
 
 # Social
 twitter_username: mookheon
-github_username:  mhjo
 rss: rss
+# github_username:  mhjo
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -93,7 +93,6 @@ permalink: /posts/:categories/:title
 collections:
   docs:
     output: true
-    feed: true
 
 defaults:
   # docs
@@ -103,7 +102,7 @@ defaults:
       type: "docs"
     values:
       layout: "doc"
-      author: "Mook"
+      author: "Mookheon"
 
 # disqus:
 #   shortname: my_disqus_shortname
