@@ -36,13 +36,17 @@ Homebrew가 이미 설치되어 있다면, 터미널을 열고 설치하면 끝�
 brew install node
 ```
 
+> Homebrew는 맥용 패키지 관리자에요. Homebrew에 대해서 모르신다면 아래 포스팅을 참고하세요.
+>
+> [Homebrew를 사용해서 Mac 패키지 관리하기][homebrew]
+
 
 
 ### 다운로드 받아서 설치하기
 
 맥 인스톨러를 다운로드 받아서 Node.js설치하는 방법은 간답합니다. 다운로드 받고 설치하면 끝이죠. 하지만 nvm을 사용할 수 없는 환경이 아니라면 nvm을 사용하는 것을 추천해요. Node.js를 직접 다운로드 받아서 설치하려면 아래와 같이 하세요.
 
-우선, Node.js 웹사이트에 접속합시다. https://nodejs.org/ko/
+우선, Node.js 웹사이트에 접속합시다. [https://nodejs.org/ko/](https://nodejs.org/ko/){:target="_blank"}
 
 그러면 바로 다운로드 버튼이 보일 텐데요. LTS 버전이라고 되어있는 다운로드 링크를 클릭하면 바로 다운로드가 시작되요.
 
@@ -81,3 +85,4 @@ v8.9.4
 
 [nvm]: /posts/nodejs/nvm-for-node-version-manager
 
+[homebrew]: /posts/tools/homebrew-for-mac

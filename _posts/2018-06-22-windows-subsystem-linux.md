@@ -107,7 +107,7 @@ ln -s "/mnt/d/workspace" /home/<my-wsl-username>/workspace
 
 
 
-### 참조 링크
+## 참조 링크
 
 아래 링크는 각각 Microsoft의 WSL 관련 문서 및 블로그로 연결됩니다.
 
