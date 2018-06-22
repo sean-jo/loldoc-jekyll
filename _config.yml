@@ -104,6 +104,7 @@ defaults:
     values:
       layout: "doc"
       author: "Mookheon"
+      image: "/assets/image/learn_code_with_apptilus.jpg"
 
 # disqus:
 #   shortname: my_disqus_shortname
