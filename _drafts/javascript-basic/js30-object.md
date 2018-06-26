@@ -200,3 +200,13 @@ class Character(
 )
 ```
 
+
+
+
+
+---
+
+delete 피연산자로 지정된 객체의 프로퍼티나 배열의 원소를 삭제
+
+instanceof 객체 타입 조사
+
