@@ -88,7 +88,7 @@ include: ["_pages", ".htaccess", "_redirects"]
 header_pages:
   - _pages/courses.html
   - _pages/articles.html
-  - _pages/resourses.html
+  - _pages/resources.html
 
 permalink: /posts/:categories/:title
 
