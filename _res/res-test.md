@@ -7,3 +7,7 @@ image: "/assets/image/learn_code_with_apptilus.jpg"
 ---
 
 리소스 테스트 페이지
+
+{% onebox https://medium.com/js-dojo/5-awesome-boilerplates-templates-for-vuejs-projects-8eb74eeb6cdb %}
+
+{% include outlink.html url="https://unsplash.com" %}
