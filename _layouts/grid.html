@@ -20,6 +20,8 @@ layout: default
         <!-- <li><a href="/courses/{{ category | downcase }}/">{{ category }}</a></li> -->
       {%- endfor -%}
     </ul>
+  {%- elsif page.path contains '_pages/resourse' -%}
+    {%- assign items = site.res -%}
   {%- endif -%}
 
   <!-- Grid Card -->

@@ -88,12 +88,14 @@ include: ["_pages", ".htaccess", "_redirects"]
 header_pages:
   - _pages/courses.html
   - _pages/articles.html
-  # - _pages/resourses.html
+  - _pages/resourses.html
 
 permalink: /posts/:categories/:title
 
 collections:
   docs:
+    output: true
+  res:
     output: true
 
 defaults:
@@ -106,6 +108,14 @@ defaults:
       layout: "doc"
       author: "Mookheon"
       image: "/assets/image/learn_code_with_apptilus.jpg"
+  # res
+  -
+    scope:
+      path: ""
+      type: "res"
+    values:
+      layout: "post"
+      author: "Mookheon"
 
 # disqus:
 #   shortname: my_disqus_shortname

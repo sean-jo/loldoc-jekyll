@@ -14,12 +14,3 @@ bundle exec jekyll clean
 bundle exec jekyll serve --livereload
 ```
 
-
-## Build process
-
-```shell
-# 빌드???
-
-# Netlify로 배포
-
-```
