@@ -95,6 +95,36 @@ img.emoji {
   }
 }
 
+// Outlink
+.outlink {
+  background-color: rgba($color: #e4e4e4, $alpha: 0.1);
+  border: 2px solid rgba($color: #b4b4b4, $alpha: 0.4);
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+
+  img.thumbnail {
+    max-width: 100px;
+    border: 1px solid rgba($color: #868686, $alpha: 0.5);
+    margin: 5px;
+    margin-right: 10px;
+    float: left;
+  }
+
+  a {
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    img.thumbnail {
+      max-width: 50px;
+    }
+
+    p {
+      clear: both;
+    }
+  }
+}
 
 @import "codelol/layout";
 @import "codelol/syntax_monokai";

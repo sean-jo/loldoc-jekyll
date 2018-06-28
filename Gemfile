@@ -24,7 +24,6 @@ group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jemoji'
   gem 'jekyll-sitemap'
-  gem 'jekyll-onebox'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
