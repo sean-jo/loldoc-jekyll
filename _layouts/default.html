@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body class="has-navbar-fixed-top {% if page.path contains '_posts' or page.path contains '_docs' %} has-background-grey-lighter{% else %} has-background-white{% endif %}">
+  <body class="has-navbar-fixed-top {% if page.path contains '_posts' or page.path contains '_docs' or page.path contains '_res' %} has-background-grey-lighter{% else %} has-background-white{% endif %}">
     {%- include header.html -%}
     
     <main class="section container {% if page.path contains '_posts' or page.path contains '_docs' %}is-fullhd{% endif %}" aria-label="Content">

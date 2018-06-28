@@ -1,4 +1,4 @@
-{% if page.path contains '_docs' or page.path contains '_posts' %}
+{% if page.path contains '_docs' or page.path contains '_posts' or page.path contains '_res' %}
 <nav class="column is-narrow is-hidden-mobile cl-nav">
   <!-- Docs -->
   {%- if page.path contains '_docs' -%}
@@ -17,7 +17,7 @@
   {%- endif -%}
   
   <!-- Posts -->
-  {%- if page.path contains '_posts' -%}
+  {%- if page.path contains '_posts' or page.path contains '_res' -%}
   <div class="menu toc">
     {% include toc.html html=content class="menu-list" %}
   </div>
