@@ -3,3 +3,11 @@ layout: grid
 title: Courses
 permalink: /courses/
 ---
+
+<ul>
+{%- assign all_categories = site.data.docs | map: "category" -%}
+{%- assign categories = all_categories | uniq -%}
+{%- for category in categories -%}
+  <!-- <li><a href="/courses/{{ category | downcase }}/">{{ category }}</a></li> -->
+{%- endfor -%}
+</ul>

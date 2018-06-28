@@ -13,13 +13,6 @@ layout: default
     {%- assign items = site.posts -%}
   {%- elsif page.path contains '_pages/courses' -%}
     {%- assign items = site.data.docs -%}
-    <ul>
-      {%- assign all_categories = site.data.docs | map: "category" -%}
-      {%- assign categories = all_categories | uniq -%}
-      {%- for category in categories -%}
-        <!-- <li><a href="/courses/{{ category | downcase }}/">{{ category }}</a></li> -->
-      {%- endfor -%}
-    </ul>
   {%- elsif page.path contains '_pages/resources' -%}
     {%- assign items = site.res -%}
   {%- endif -%}
