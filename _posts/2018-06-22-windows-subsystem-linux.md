@@ -33,7 +33,7 @@ WSL은 가상머신이나 멀티부팅을 사용하지 않고 윈도우 내에 �
 
 설치를 위해 `Win + Q` 를 눌러 윈도우 검색창에서`Windows 기능 켜기/끄기` 를 찾아 실행 시킵니다.
 
-![windows 기능 켜기끄기]({{ "/assets/image/post/wsl01.png" | absolute_url }})
+![windows 기능 켜기끄기](/assets/image/post/wsl01.png)
 
 Linux용 Windows 하위 시스템을 활성화 시키고 PC 재부팅이 되면 설치가 시작됩니다. 
 
