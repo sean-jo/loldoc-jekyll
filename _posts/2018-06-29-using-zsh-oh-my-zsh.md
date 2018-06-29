@@ -116,7 +116,7 @@ plugins=(rails git ruby)
 
 각 플러그인들의 사용법은 Oh My Zsh의 위키에 잘 정리되어 있으니 여기서 참조하면 됩니다.
 
-> [https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins){:target="_blank"}
+> [Oh My Zsh 위키](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins){:target="_blank"}
 
 
 
@@ -149,8 +149,8 @@ ZSH_THEME="random"
 
 ## 참고
 
-- [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh){:target="_blank"}
-- [https://nolboo.kim/blog/2015/08/21/oh-my-zsh/](https://nolboo.kim/blog/2015/08/21/oh-my-zsh/){:target="_blank"}
+[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh){:target="_blank"}
+[https://nolboo.kim/blog/2015/08/21/oh-my-zsh/](https://nolboo.kim/blog/2015/08/21/oh-my-zsh/){:target="_blank"}
 
 
 

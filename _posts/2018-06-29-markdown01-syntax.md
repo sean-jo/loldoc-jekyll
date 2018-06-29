@@ -174,7 +174,7 @@ www.google.com 와 같이 유효한 URL을 입력시, 자동으로 URL을 링크
 
 이모지는 아래 링크를 참조해서 알아낼 수 있습니다.
 
-> Emoji Cheat Sheet [https://www.webpagefx.com/tools/emoji-cheat-sheet/](https://www.webpagefx.com/tools/emoji-cheat-sheet/){:target="_blank"}
+>  [Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/){:target="_blank"}
 
 ```markdown
 :+1:, :a:, :accept:, :baby:, :car:, :kiss:, :kr:

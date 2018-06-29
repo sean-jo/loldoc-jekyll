@@ -111,8 +111,9 @@ ln -s "/mnt/d/workspace" /home/<my-wsl-username>/workspace
 
 아래 링크는 각각 Microsoft의 WSL 관련 문서 및 블로그로 연결됩니다.
 
-- Docs [https://docs.microsoft.com/en-us/windows/wsl/about](https://docs.microsoft.com/en-us/windows/wsl/about){:target="_blank"}
-- Blog [https://blogs.msdn.microsoft.com/wsl/](https://docs.microsoft.com/en-us/windows/wsl/about){:target="_blank"}
+Docs [https://docs.microsoft.com/en-us/windows/wsl/about](https://docs.microsoft.com/en-us/windows/wsl/about){:target="_blank"}
+
+Blog [https://blogs.msdn.microsoft.com/wsl/](https://docs.microsoft.com/en-us/windows/wsl/about){:target="_blank"}
 
 
 

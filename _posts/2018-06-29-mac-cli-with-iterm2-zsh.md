@@ -86,7 +86,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 iTerm2와 zsh의 테마를 변경해 봅시다.
 
-1. 우선 [https://github.com/mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes){:target="_blank"} 에 접속합니다.
+1. 우선 [iTerm2-Color-Schemes Repository](https://github.com/mbadolato/iTerm2-Color-Schemes){:target="_blank"} 에 접속합니다.
 2. 여기서 원하는 iTerm2 테마를 고른 후 다운로드합니다. 저는 Snazzy를 선택했습니다.
 3. *iTerm2 > Preferences > Profiles > Colors Tab* 에서 우측 하단 Color Presets을 클릭합니다.
 4. `Import` 를 클릭하고 다운로드 받은 테마를 선택해 줍니다.
@@ -114,9 +114,9 @@ ZSH_THEME="dracula"
 
 ## 참고 자료
 
-- [https://nesoy.github.io/articles/2018-01/Mac-Terminal](https://nesoy.github.io/articles/2018-01/Mac-Terminal){:target="_blank"}
-- [https://subicura.com/2017/11/22/mac-os-development-environment-setup.html](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html){:target="_blank"}
-- [https://beomi.github.io/2017/07/07/Beautify-ZSH/](https://beomi.github.io/2017/07/07/Beautify-ZSH/){:target="_blank"}
+[https://nesoy.github.io/articles/2018-01/Mac-Terminal](https://nesoy.github.io/articles/2018-01/Mac-Terminal){:target="_blank"}
+[https://subicura.com/2017/11/22/mac-os-development-environment-setup.html](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html){:target="_blank"}
+[https://beomi.github.io/2017/07/07/ Beautify-ZSH/](https://beomi.github.io/2017/07/07/Beautify-ZSH/){:target="_blank"}
 
 
 
