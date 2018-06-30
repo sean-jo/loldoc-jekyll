@@ -117,6 +117,5 @@ defaults:
       layout: "post"
       author: "Mookheon"
 
-# disqus:
-#   shortname: my_disqus_shortname
-
+disqus:
+  shortname: code-apptilus-com
