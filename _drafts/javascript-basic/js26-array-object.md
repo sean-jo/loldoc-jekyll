@@ -19,6 +19,12 @@ arr[2];
 
 // 배열 길이
 arr.length
+
+// 마지막 요소에 접근
+arr[arr.length - 1]; //=> true
+
+// 배열 요소에 새 값을 할당하기
+arr[2] = false;      // arr는 ["Sean", 30, false]
 ```
 
 

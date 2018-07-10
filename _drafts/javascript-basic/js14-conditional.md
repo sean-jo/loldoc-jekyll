@@ -12,30 +12,120 @@ date:
 
 ## if 문
 
-조건문의 기본은 if 문이에요. if문은 if문과 
+조건문의 기본은 if 문이에요. if문은 기본적으로 아래처럼 구성되요.
+
+```js
+if (표현식) {
+  // 표현식의 값이 true일 경우 실행할 구문(Statement)
+}
+```
+
+if 뒤에 괄호를 이용해 표현식을 작성해요. 표현식은 Boolean 값으로 표현될 수 있어야 해요. 즉 표현식의 결과가 true이거나 false 이어야 하죠. 만약 표현식의 결과가 true라면 중괄호 (`{ }`) 내부 (블록 내부) 의 구문이 실행되요. 만약 표현식의 결과가 false라면 중괄호 내부의 구문은 실행되지 않게 되죠.
+
+```js
+// conditional.js
+var score = 85;
+
+if (score > 60) {
+  console.log("Pass")
+}
+```
+
+위 예제를 실행해 보면 콘솔에 Pass가 찍히는 것을 확인할 수 있어요. 만약 score가 60이라면 어떻게 될까요? 표현식의 값이 `false` 가 되므로 중괄호 내부의 문장은 실행되지 않고 건너뛰게 되요. 예제에서는 다음 문장이 없으니 프로그램이 종료되겠죠. 그럼 콘솔에는 아무것도 찍히지 않아요.
 
 
 
+## if...else 문
+
+if 문은 조건문의 값이 `true` 일 경우에만 중괄호 내부의 문장이 실행되요. 만약 `false` 인 경우에도 어떠한 값이 실행되게 하려면 `else` 구문을 함께 이용해요.
+
+```js
+if (표현식) {
+  // 표현식의 값이 true일 경우 실행할 구문(Statement)
+} else {
+  // false 일 경우 실행될 구문
+}
+```
+
+표현식이 true 이면 if의 중괄호 부분이 실행되고, false 라면 else 이후의 중괄호 부분이 실행되는 거죠. 즉 조건의 참과 거짓에 따라 실행될 문장을 분기한거죠. `conditional.js` 예제를 수정해서 실습해보죠.
+
+```js
+var score = 60;
+
+if (score > 60) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+```
+
+점수에 따라 합격 불합격 여부를 판정하는 프로그램이죠. 결과는 Fail이에요. 맞죠?
 
 
-### 조건문
 
-```javascript
-if(a > b && c < d) {
-} else if (a >= b || c <= d) {
-} else if (!== a) {
+## else if 문
+
+예제를 조금더 수정해 보죠. 점수에 따라 합격 불합격을 판정하는 것이 아니라, 점수에 따라 A 부터 F 학점까지 학점을 출력하려면 이렇게 할 수 있어요.
+
+```js
+var score = 61;
+
+// if (score > 60) {
+//   console.log("Pass");
+// } else {
+//   console.log("Fail");
+// }
+
+if (score > 90) {
+  console.log("A");
+} else if (score > 80) {
+  console.log("B");
+} else if (score > 70) {
+  console.log("C");
+} else if (score > 60) {
+  console.log("D");
+} else {
+  console.log("F");
+}
+```
+
+엄청 점수 잘 주시는 교수님이죠? 가까스로 F는 피했네요.
+
+
+
+위의 조건문에 논리 연산자를 함께 써서 더 복잡하게 만들어 보죠. 예를 들어 출석률이 90% 이상이어야만 A를 받을 수 있으려면 어떻게 할까요?
+
+```js
+var score = 100;
+var attendancePercent = 89;
+
+if (score > 90 && attendancePercent >= 90) {
+  console.log("A");
+} else if (score > 80) {
+  console.log("B");
+} else if (score > 70) {
+  console.log("C");
+} else if (score > 60) {
+  console.log("D");
+} else {
+  console.log("F");
 }
 ```
 
 
 
+출석률이 75% 미만이라면 아무리 성적이 좋아도 F학점이 뜨게 만들고 싶어요. 이건 어떻게 할까요?
+
+
+
+
+
 ## switch 문
 
-switch다음에 오는 괄호에는 반환값이 있는 어떠한 표현식이든 올 수 있어요. switch 문의 블록 내부는 여러개의 case문과 하나의 default문으로 구성되며, 괄호 내부의 표현식 값에 따라 조건에 부합하는 case문이 실행되요.
+if...else if 문은 경우에 따라 switch 문으로 깔끔하게 표현할 수도 있어요. 
 
 ```js
-// switch
-switch(val) {
+switch (표현식) {
   case 1:
     //...
     break;
@@ -47,6 +137,8 @@ switch(val) {
     break;
 }
 ```
+
+switch 다음에 오는 괄호에는 반환값이 있는 어떠한 표현식이든 올 수 있어요. switch 문의 블록 내부는 여러개의 case문과 하나의 default문으로 구성되며, 괄호 내부의 표현식 값에 따라 조건에 부합하는 case문이 실행되요.
 
 만약 case 문에 break 문이 없으면 switch 문이 종료되지 않고 다음 case문을 실행시켜요.
 

@@ -1,7 +1,7 @@
 ---
-title: "JavaScript 연산자"
+title: "JavaScript 연산자 및 표현식"
 course: "javascript-basic"
-date: 
+date: 2018-07-10 16:00:00 +0900
 ---
 
 
