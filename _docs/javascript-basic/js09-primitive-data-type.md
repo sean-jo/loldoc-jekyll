@@ -2,6 +2,7 @@
 title: "JavaScript의 원시 자료형"
 course: "javascript-basic"
 date:   2018-06-20 18:00:00 +0900
+last_modified_at: 2018-06-20 18:30:00 +0900
 ---
 
 
