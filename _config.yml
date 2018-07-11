@@ -17,7 +17,7 @@ title: Apptilus CODE
 email: 
 author: Mookheon
 description: >- # this means to ignore newlines until "baseurl:"
-  More People, More Opportunities. 프로그래밍 튜토리얼 및 리소스.
+  More People, More Opportunities
 baseurl: "" # the subpath of your site, e.g. /blog
 # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://code.apptilus.com"
