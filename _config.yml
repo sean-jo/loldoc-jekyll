@@ -107,7 +107,7 @@ defaults:
     values:
       layout: "doc"
       author: "Mookheon"
-      image: "/assets/image/learn_code_with_apptilus.jpg"
+      image: "/assets/image/doc_basic_image.jpg"
   # res
   -
     scope:
