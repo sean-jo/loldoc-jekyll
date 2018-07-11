@@ -107,7 +107,7 @@ defaults:
     values:
       layout: "doc"
       author: "Mookheon"
-      image: "/assets/image/doc_basic_image.jpg"
+      image: "/assets/image/doc_basic_image.png"
   # res
   -
     scope:
