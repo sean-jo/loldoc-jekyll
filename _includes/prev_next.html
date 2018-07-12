@@ -1,29 +1,12 @@
 <hr>
-{% assign current_course = page.course %}
-<h1>{{ current_course }}</h1>
-
-{% assign docs = site.docs | where_exp: "doc", "doc.course == current_course" %}
-{% for doc in docs %}
-  {% assign current_page_path = page.path %}
-  {% if current_page_path == doc.path %}
-    {% assign i = forloop.index %}
-    {% decrement i %}
-    {{ i }}
-    <li>what - {{ docs[forloop.index0].path }}</li>
-    <li>next - {{ docs[forloop.index].path }}</li>
-  {% endif %}
-
-
-{% endfor %}
-
 <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-{% if page.previous.course == current_course %}
+{% if page.previous.course == page.course %}
   <a href="{{ page.previous.url }}" class="pagination-previous">&lt; {{ page.previous.title }}</a>
 {% else %}
   <a href="" class="pagination-previous" title="첫 페이지" disabled>처음</a>
 {% endif %}
 
-{% if page.next.course == current_course %}
+{% if page.next.course == page.course %}
   <a href="{{ page.next.url }}" class="pagination-next">{{ page.next.title }} &gt;</a>
 {% else %}
   <a href="" class="pagination-next" title="마지막 페이지" disabled>마지막</a>
