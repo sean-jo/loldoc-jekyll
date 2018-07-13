@@ -63,16 +63,10 @@ img.emoji {
 // sidenav
 .cl-nav {
   background-color: $white;
-  margin-top: 1.25rem;
   margin-right: 1em;
-  // height: 100%;
-  // width: 240px;
-  position: fixed;
-  // z-index: 1;
-  top: 3.25rem;
 
   .menu, .toc {
-    // width: 240px;
+    width: 240px;
 
     li {
       font-size: 0.8rem;
