@@ -1,29 +1,31 @@
 {% if page.path contains '_docs' or page.path contains '_posts' or page.path contains '_res' %}
 <nav class="column is-narrow is-hidden-mobile cl-nav">
-  <!-- Docs -->
-  {%- if page.path contains '_docs' -%}
-  <div class="menu">
-    <ul class="menu-list">
-      {% assign current_course = page.course %}
-      {% for doc in site.docs %}
-        {% if doc.course == current_course %}
-        <li>
-          <a class="{% if page.url == doc.url %}is-active{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a>
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  {%- endif -%}
+  <div class="sidebar__inner">
+    <!-- Docs -->
+    {%- if page.path contains '_docs' -%}
+    <div class="menu">
+      <ul class="menu-list">
+        {% assign current_course = page.course %}
+        {% for doc in site.docs %}
+          {% if doc.course == current_course %}
+          <li>
+            <a class="{% if page.url == doc.url %}is-active{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {%- endif -%}
+    
+    <!-- Posts -->
+    {%- if page.path contains '_posts' or page.path contains '_res' -%}
+    <div class="menu toc">
+      {% include toc.html html=content class="menu-list" %}
+    </div>
+    {%- endif -%}
+    <hr>
   
-  <!-- Posts -->
-  {%- if page.path contains '_posts' or page.path contains '_res' -%}
-  <div class="menu toc">
-    {% include toc.html html=content class="menu-list" %}
+    <!-- <div class="ad-area">&nbsp;</div> -->
   </div>
-  {%- endif -%}
-  <hr>
-
-  <!-- <div class="ad-area">&nbsp;</div> -->
 </nav>
 {% endif %}

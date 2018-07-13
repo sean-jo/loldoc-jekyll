@@ -1,5 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
+console.log("welcome to apptilus code");
 
+var sidebar = new StickySidebar('.cl-nav', {
+  containerSelector: '#main-content',
+  innerWrapperSelector: '.sidebar__inner',
+  topSpacing: 60
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 

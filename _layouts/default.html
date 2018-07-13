@@ -7,7 +7,7 @@
     {%- include header.html -%}
     
     <main class="section container {% if page.path contains '_posts' or page.path contains '_docs' %}is-fullhd{% endif %}" aria-label="Content">
-      <section class="columns">
+      <section id="main-content" class="columns">
         {%- include sidenav.html -%}
         {{ content }}
         {%- include aside.html -%}
