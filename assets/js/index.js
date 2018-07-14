@@ -1,12 +1,5 @@
 console.log("welcome to apptilus code");
 
-var sidebar = new StickySidebar('.sidebar-area', {
-  // containerSelector: '#main-content',
-  // innerWrapperSelector: '.sidebar__inner',
-  topSpacing: 70,
-  bottomSpacing: 16
-});
-
 document.addEventListener('DOMContentLoaded', function () {
   
   // Get all "navbar-burger" elements
@@ -32,3 +25,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 });
+
+var sidebar = new StickySidebar('.sidebar-area', {
+  // containerSelector: '#main-content',
+  // innerWrapperSelector: '.sidebar__inner',
+  topSpacing: 70,
+  bottomSpacing: 16
+});
+
