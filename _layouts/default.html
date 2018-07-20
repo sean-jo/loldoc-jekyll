@@ -13,15 +13,9 @@
         {%- include aside.html -%}
       </section>
 
-      <div class="columns">
-        <div class="column">a</div>
-        <div class="column">
-          {%- if site.disqus.shortname -%}
-            {%- include disqus_comments.html -%}
-          {%- endif -%}
-        </div>
-        <div class="column">c</div>
-      </div>
+      {%- if page.path contains '_posts' or page.path contains '_docs' or page.path contains '_res' -%}
+        {%- include cat-area.html -%}
+      {% endif %}
     </main>
 
     {%- include footer.html -%}

@@ -14,7 +14,7 @@
         {% endif %}
       {% endfor %}
     </ul>
-    <hr>
+    <hr class="hr-nav">
     <!-- <div class="ad-area">&nbsp;</div> -->
   </div>
   {%- endif -%}
@@ -23,7 +23,7 @@
   {%- if page.path contains '_posts' or page.path contains '_res' -%}
   <div class="menu toc sidebar-area">
     {% include toc.html html=content class="menu-list" %}
-    <hr>
+    <hr class="hr-nav">
   </div>
   {%- endif -%}
 
