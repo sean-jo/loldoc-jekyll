@@ -12,6 +12,16 @@
         {{ content }}
         {%- include aside.html -%}
       </section>
+
+      <div class="columns">
+        <div class="column">a</div>
+        <div class="column">
+          {%- if site.disqus.shortname -%}
+            {%- include disqus_comments.html -%}
+          {%- endif -%}
+        </div>
+        <div class="column">c</div>
+      </div>
     </main>
 
     {%- include footer.html -%}
