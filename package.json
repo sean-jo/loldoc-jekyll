@@ -16,7 +16,5 @@
     "url": "https://github.com/mhjo/loldoc-jekyll/issues"
   },
   "homepage": "https://github.com/mhjo/loldoc-jekyll#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+  "devDependencies": {}
 }
