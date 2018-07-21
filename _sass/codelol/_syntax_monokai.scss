@@ -1,5 +1,9 @@
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
+.highlight table td { 
+  padding: 5px; 
+}
+.highlight table pre { 
+  margin: 0; 
+}
 .highlight .c, .highlight .cd {
   color: #5aaf49;
   font-style: italic;
@@ -211,4 +215,15 @@
 
 div.highlight {
   margin-bottom: 1rem;
+
+}
+
+.highlight {
+  overflow-wrap: break-word;
+  overflow: auto;
+  word-wrap: break-word;
+
+  code {
+    word-wrap: break-word;
+  }
 }
