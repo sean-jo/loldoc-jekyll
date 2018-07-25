@@ -19,8 +19,7 @@ Chocolatey를 원할하게 사용하기 위해서는 PowerShell을 사용하는 
 
 ```powershell
 # Chocolatey 설치하기
-Set-ExecutionPolicy Bypass -Scope Process -Force; \
-iex ((New-Object System.Net.WebClient).DownloadString( 'https://chocolatey.org/install.ps1' ))
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # 설치 확인하기
 choco -?

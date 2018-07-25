@@ -3,6 +3,11 @@
 /* default */
 .cl-content {
   background-color: $white;
+  max-width: 840px;
+
+  @media screen and (min-width: 769px) {
+    width: 50%;
+  }
 }
 
 .bottom-row {
@@ -19,7 +24,7 @@
 
   .bottom-aside {
     background-color: $white;
-    margin-left: 0.2rem;
+    // margin-left: 0.2rem;
 
     .ad-area {
       width: 160px;
