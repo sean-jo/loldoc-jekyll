@@ -1,8 +1,8 @@
-
-
-
-
-
+---
+title: "JavaScript 데이터 타입 변환"
+course: "javascript-basic"
+date:   2018-10-10 12:00:00 +0900
+---
 
 
 

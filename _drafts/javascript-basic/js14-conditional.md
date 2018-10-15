@@ -1,7 +1,7 @@
 ---
 title: "JavaScript 조건문"
 course: "javascript-basic"
-date: 
+date:   2018-10-10 12:00:00 +0900
 ---
 
 
