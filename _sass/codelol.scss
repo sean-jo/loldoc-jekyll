@@ -66,7 +66,12 @@
 // aside
 .cl-aside {
   background-color: $white;
+  min-width: 186px;
   margin-left: 1em;
+
+  // .aside-area {
+  //   will-change: min-height;
+  // }
 
   .ad-area {
     width: 160px;

@@ -1,7 +1,7 @@
 console.log("welcome to apptilus code");
 
-document.addEventListener('DOMContentLoaded', function () {
-  
+window.onload = function() {
+
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
@@ -24,12 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-});
-
-$(document).ready(function() {
-  
-  var sidebarArea = document.querySelectorAll('.sidebar-area');
-  if (sidebarArea) {
+  var sideArea = document.getElementsByClassName('sidebar-area');
+  console.log(sideArea);
+  if (sideArea.length > 0) {
     var sidebar = new StickySidebar('.sidebar-area', {
       // containerSelector: '#main-content',
       // innerWrapperSelector: '.sidebar__inner',
@@ -38,4 +35,14 @@ $(document).ready(function() {
     });
   }
 
-});
+  var asideArea = document.getElementById('aside-area');
+  console.log(asideArea)
+  if (asideArea) {
+    var asideArea = new StickySidebar('#aside-area', {
+      // innerWrapperSelector: '.sidebar__inner',
+      topSpacing: 70,
+      bottomSpacing: 16
+    });
+  }
+
+}
