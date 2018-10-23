@@ -12,5 +12,12 @@
     "date": "2018-06-18",
     "image": "/assets/image/course/javascript_small.png",
     "category": "JavaScript"
+  },
+  {
+    "title": "웹을 위한 JavaScript",
+    "url": "/docs/js-for-web/",
+    "date": "2018-10-23",
+    "image": "/assets/image/course/javascript_small.png",
+    "category": "JavaScript"
   }
 ]

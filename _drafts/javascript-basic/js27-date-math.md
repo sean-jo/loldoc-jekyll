@@ -8,6 +8,19 @@
 
 
 
+### 날짜 (Date)
+
+```js
+/* 날짜 객체 생성 */
+const now = new Date();
+now;  // Fri Dec 16 2017 00:~~~~
+
+// 특정 날짜에 해당하는 객체 생성
+const halloween = new Date(2016, 9, 31);  // 9는 10월;;;
+```
+
+
+
 
 
 ## Date
