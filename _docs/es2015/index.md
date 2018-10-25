@@ -1,7 +1,7 @@
 ---
-title: "모던 JavaScript 웹개발을 위한 ES2015"
+title: 	"모던 JavaScript 웹개발을 위한 ES2015"
 course: "es2015"
-date:   2018-07-10 11:00:00 +0900
+date:   2018-10-01 09:00:00 +0900
 ---
 
 

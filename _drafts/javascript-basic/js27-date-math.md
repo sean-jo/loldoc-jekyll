@@ -8,60 +8,6 @@
 
 
 
-### 날짜 (Date)
-
-```js
-/* 날짜 객체 생성 */
-const now = new Date();
-now;  // Fri Dec 16 2017 00:~~~~
-
-// 특정 날짜에 해당하는 객체 생성
-const halloween = new Date(2016, 9, 31);  // 9는 10월;;;
-```
-
-
-
-
-
-## Date
-
-날짜와 시간을 가지는 Date객체를 생성
-
-```javascript
-// 컴퓨터의 시계에 의해 결정된 현재의 날짜와 시간을 생성
-var today = new Date();
-
-var year = today.getFullYear()        // 2017
-var month = today.getMonth()          // 0~11
-var date = today.getDate();           // 1~31
-var weekday = today.getDay()          // 0~6
-
-var hours = today.getHours();         // 0~23
-var minutes = today.getminutes()      // 0~59
-var seconds = today.getSeconds()      // 0~59
-var milli = today.getMilliseconds();  // 0~999
-today.getTime()      // 1970.01.01.00:00:00 기점으로 현재 시간까지의 밀리초 리턴
-today.toDateString() // 리턴 Wed Apr 16 1975
-
-Date.now() // UTC 기준으로 1970년 1월 1일 0시 0분 0초부터 현재까지 경과된 밀리 초를 반환합니다.
-
-/* 코드 스니펫 */
-
-// 특정 날짜에 해당하는 객체 생성
-const halloween = new Date(2016, 9, 31);  // 9는 10월;;;
-
-// 당월 총 일수 구하기
-d_length = 32 - new Date(year, month, 32).getDate();
-
-var curr = new Date();
-var curr_year = curr.getFullYear();
-var curr_month = curr.getMonth();
-var m_length = 32 - new Date(curr_year, curr_month, 32).getDate();
-console.log(m_length);  // 30 or 31
-```
-
-
-
 ### 한글 날짜 시간 표시
 
 ```js

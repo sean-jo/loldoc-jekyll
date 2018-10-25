@@ -4,6 +4,7 @@ title:  "Markdown 사용하기: 마크다운으로 글 작성하기"
 date:   2018-06-29 17:00:00 +0900
 author: Mookheon
 categories: tools
+image: "/assets/image/article/markdown.png"
 ---
 
 

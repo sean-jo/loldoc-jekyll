@@ -1,7 +1,7 @@
 ---
-title: "웹을 위한 JavaScript"
+title: 	"웹을 위한 JavaScript"
 course: "js-for-web"
-date: 2018-10-23 09:00:00 +0900
+date: 	2018-09-01 09:00:00 +0900
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "자바스크립트는 무엇인가요"
+title: 	"자바스크립트는 무엇인가요"
 course: "javascript-basic"
 date:   2018-06-19 13:00:00 +0900
 ---
