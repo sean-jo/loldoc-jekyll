@@ -1,7 +1,7 @@
 ---
 title: 	"JavaScript Math 객체"
 course: "javascript-basic"
-date: 	2018-10-26 10:00:00 +0900
+date: 	2018-08-11 11:00:00 +0900
 ---
 
 

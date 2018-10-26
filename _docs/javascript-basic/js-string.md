@@ -1,7 +1,7 @@
 ---
 title: 	"JavaScript String 조작하기"
 course: "javascript-basic"
-date: 	2018-10-26 10:00:00 +0900
+date: 	2018-08-12 09:00:00 +0900
 ---
 
 
