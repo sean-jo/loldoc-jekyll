@@ -2,7 +2,7 @@
 title: "JavaScript의 원시 자료형"
 course: "javascript-basic"
 date:   2018-06-20 18:00:00 +0900
-last_modified_at: 2018-06-20 18:30:00 +0900
+last_modified_at: 2018-10-26 12:30:00 +0900
 ---
 
 
@@ -73,6 +73,21 @@ name.length; // 5
 var male = true;
 var areYouOK = false;
 ```
+
+
+
+자바스크립트의 값중에는 자동으로 `false`로 평가되는 값이 있습니다. 예를 들어 숫자 0은 `false`로 평가되며, 나머지 숫자는 모두 `true`로 평가됩니다. 이렇게 `false`로 평가되는 값들은 아래와 같습니다.
+
+```js
+// falsy value
+0, -0
+""  // 빈문자열
+NaN
+null
+undefined
+```
+
+
 
 
 
