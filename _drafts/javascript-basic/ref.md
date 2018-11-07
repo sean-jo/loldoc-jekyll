@@ -57,3 +57,24 @@ console.log(today);
 
 다양한 숫자 표현 - http://numeraljs.com/
 
+
+
+# Module 패턴
+
+```js
+var Module = Module || {};
+(function(Public) {
+  Public.book = "Alice in Wonderland";
+  
+  var name = "Alice";
+  
+  Public.getName = function() {
+    console.log(name);
+  };
+  
+  function privateFunc() {
+    console.log('private');
+  };
+})(Module);
+```
+
